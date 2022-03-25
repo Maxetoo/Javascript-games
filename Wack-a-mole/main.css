@@ -1,0 +1,126 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: lightblue;
+    font-family: cursive;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.game {
+    height: 70vh;
+    max-height: 100vh;
+    width: 450px;
+    margin: 1rem;
+    display: grid;
+    grid-template-columns: auto auto;
+    border: solid black 1.3px;
+    background: white;
+}
+
+.cloud {
+    display: grid;
+    place-content: center;
+    position: relative;
+    height: calc(70vh / 3);
+    width: calc(450px / 2);
+    overflow: hidden;
+    user-select: none;
+    cursor: pointer;
+}
+
+.fa-cloud {
+    font-size: 70px;
+    color: black;
+    margin-top: 15px;
+    z-index: 2;
+}
+
+.fa-dragon {
+    font-size: 50px;
+    color: black;
+    z-index: -1;
+    position: absolute;
+    bottom: 55%;
+    left: 35%;
+    display: none;
+}
+
+.mole {
+    height: 70px;
+    width: 90px;
+    z-index: 2;
+    position: absolute;
+    bottom: 45%;
+    left: 28%;
+    background: url(./mole/mole.jpg);
+    background-position: center;
+    background-size: cover;
+    background-color: black;
+}
+
+.hole {
+    height: 70px;
+    width: 90px;
+    z-index: 1;
+    position: absolute;
+    bottom: 45%;
+    left: 28%;
+}
+
+.display-result {
+    width: 450px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 2rem;
+}
+
+.btns {
+    width: calc(450px / 3);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.start {
+    color: white;
+    background: green;
+    padding: 0.5rem;
+    border-radius: 5px;
+    user-select: none;
+    cursor: pointer;
+    font-size: small;
+}
+
+.restart {
+    color: white;
+    background: orangered;
+    padding: 0.5rem;
+    border-radius: 5px;
+    user-select: none;
+    cursor: pointer;
+    font-size: small;
+}
+
+.start:active {
+    background: rgb(92, 236, 92);
+}
+
+.restart:active {
+    background: rgb(238, 164, 138);
+}
+
+.result {
+    font-weight: bold;
+}
+
+.timer {
+    font-weight: bold;
+}
