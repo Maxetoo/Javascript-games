@@ -13,8 +13,6 @@ let userScore = document.querySelector('.user-score')
 let compScore = document.querySelector('.comp-score')
 let restart = document.querySelector('.restart')
 
-// console.log(randomNum)
-//console.log(randomNum);
 let genUserScore = 1
 let genCompScore = 1
 
