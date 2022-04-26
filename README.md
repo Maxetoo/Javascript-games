@@ -14,7 +14,7 @@ see live preview : [Input-correct-num](https://input-correct-num.netlify.app/).
 see live preview : [Rock-paper-scissors](https://rockypaperscissors.netlify.app/).
 
 ## Type speed test
-see live preview : [Type-speed-test](https://typespeeding-tester.netlify.app/).
+see live preview : [Type-speed-test](https://typingspeed-tester.netlify.app/).
 
 ## Wack a mole
 see live preview : [Wack-a-mole](https://wack-amole.netlify.app/).
